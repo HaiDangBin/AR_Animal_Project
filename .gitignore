@@ -26,3 +26,7 @@ Logs/
 .Trashes
 ehthumbs.db
 Thumbs.db
+.vscode/
+*.slnx
+*.apk
+*.aab

@@ -120,3 +120,8 @@ Nếu đã bật Branch Protection yêu cầu review mà chưa có ai approve, n
 
 ### Thành viên chưa clone được repo
 Thường do chưa **Accept lời mời Collaborator** qua email/thông báo GitHub. Kiểm tra tại: `github.com/<tên-repo>/invitations`.
+## Yêu cầu trước khi mở project
+- Unity 6000.4.8f1 (cài kèm Android Build Support: OpenJDK, Android SDK & NDK Tools)
+- Git đã cài và có trong PATH (bắt buộc vì project dùng package từ Git URL: com.coplaydev.unity-mcp)
+- Mở project, đợi import xong, rồi File > Build Profiles > Android > Switch Platform
+- Điện thoại Android hỗ trợ ARCore, bật USB debugging
