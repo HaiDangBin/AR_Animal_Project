@@ -1,0 +1,24 @@
+{
+  "single": {
+    "temperature": 0.50543212890625,
+    "threshold": 0.5152155160903931,
+    "target_met": true,
+    "coverage": 0.9871794871794872,
+    "accepted_accuracy": 0.9506493506493506,
+    "ece_before": 0.1390120103573188,
+    "ece_after": 0.030903599048272203,
+    "nll_before": 0.2920985221862793,
+    "nll_after": 0.16097132861614227
+  },
+  "tta": {
+    "temperature": 0.49950963258743286,
+    "threshold": 0.5942647457122803,
+    "target_met": true,
+    "coverage": 0.9615384615384616,
+    "accepted_accuracy": 0.952,
+    "ece_before": 0.13916642910394914,
+    "ece_after": 0.03250676362942429,
+    "nll_before": 0.28994694352149963,
+    "nll_after": 0.15681993961334229
+  }
+}

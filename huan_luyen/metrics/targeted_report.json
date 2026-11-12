@@ -1,0 +1,18 @@
+{
+  "before": {
+    "macro_f1": 0.9347905757431512,
+    "background_recall": 0.94,
+    "tiger_f1": 0.88,
+    "goat_f1": 0.84375,
+    "score": 0.9113536212049089
+  },
+  "after": {
+    "macro_f1": 0.9404458598024947,
+    "background_recall": 0.94,
+    "tiger_f1": 0.9230769230769231,
+    "goat_f1": 0.835820895522388,
+    "score": 0.9200392330011326
+  },
+  "best_epoch": 6,
+  "improved_on_val": true
+}

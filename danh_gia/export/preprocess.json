@@ -1,0 +1,68 @@
+{
+  "checkpoint": "targeted_stage2.pth",
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "dtype": "float32",
+  "layout": "NCHW",
+  "color": "RGB",
+  "range_before_normalize": [
+    0,
+    1
+  ],
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "resize": "Pillow Resize((224,224)), bilinear, antialias=True; full image, no center crop",
+  "exif": "ImageOps.exif_transpose before RGB",
+  "tta": "mean raw logits of original and horizontal flip, then divide by T and softmax; use TTA-specific temperature/threshold",
+  "classes": [
+    "Dog",
+    "Cat",
+    "Horse",
+    "Sheep",
+    "Goat",
+    "Deer",
+    "Tiger",
+    "Penguin",
+    "Chicken",
+    "background"
+  ],
+  "calibration": {
+    "single": {
+      "temperature": 0.50543212890625,
+      "threshold": 0.5152155160903931,
+      "target_met": true,
+      "coverage": 0.9871794871794872,
+      "accepted_accuracy": 0.9506493506493506,
+      "ece_before": 0.1390120103573188,
+      "ece_after": 0.030903599048272203,
+      "nll_before": 0.2920985221862793,
+      "nll_after": 0.16097132861614227
+    },
+    "tta": {
+      "temperature": 0.49950963258743286,
+      "threshold": 0.5942647457122803,
+      "target_met": true,
+      "coverage": 0.9615384615384616,
+      "accepted_accuracy": 0.952,
+      "ece_before": 0.13916642910394914,
+      "ece_after": 0.03250676362942429,
+      "nll_before": 0.28994694352149963,
+      "nll_after": 0.15681993961334229
+    }
+  },
+  "logits_tolerance_unity": 0.001,
+  "top1_agreement_required": 1.0,
+  "flow": "Chọn ảnh → EXIF → RGB resize normalize → inference → top3 → menu nếu chưa có ngưỡng hoặc dưới ngưỡng → xác nhận → spawn Prefab"
+}

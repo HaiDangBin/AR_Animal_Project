@@ -1,0 +1,9 @@
+{
+  "accuracy": 0.9008264462809917,
+  "macro_f1": 0.8947158944796388,
+  "top3": 0.9855371900826446,
+  "background_recall": 0.54,
+  "ece": 0.03128636517554273,
+  "coverage": null,
+  "accepted_accuracy": null
+}

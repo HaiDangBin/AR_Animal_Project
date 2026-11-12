@@ -1,0 +1,75 @@
+{
+  "Dog": {
+    "precision": 0.9245283018867925,
+    "recall": 0.98,
+    "f1-score": 0.9514563106796117,
+    "support": 50.0
+  },
+  "Cat": {
+    "precision": 0.9795918367346939,
+    "recall": 0.96,
+    "f1-score": 0.9696969696969697,
+    "support": 50.0
+  },
+  "Horse": {
+    "precision": 1.0,
+    "recall": 0.98,
+    "f1-score": 0.98989898989899,
+    "support": 50.0
+  },
+  "Sheep": {
+    "precision": 0.9333333333333333,
+    "recall": 0.84,
+    "f1-score": 0.8842105263157894,
+    "support": 50.0
+  },
+  "Goat": {
+    "precision": 0.8333333333333334,
+    "recall": 0.9,
+    "f1-score": 0.8653846153846154,
+    "support": 50.0
+  },
+  "Deer": {
+    "precision": 0.9591836734693877,
+    "recall": 0.94,
+    "f1-score": 0.9494949494949495,
+    "support": 50.0
+  },
+  "Tiger": {
+    "precision": 1.0,
+    "recall": 0.8529411764705882,
+    "f1-score": 0.9206349206349206,
+    "support": 34.0
+  },
+  "Penguin": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 50.0
+  },
+  "Chicken": {
+    "precision": 0.9803921568627451,
+    "recall": 1.0,
+    "f1-score": 0.9900990099009901,
+    "support": 50.0
+  },
+  "background": {
+    "precision": 0.8363636363636363,
+    "recall": 0.92,
+    "f1-score": 0.8761904761904762,
+    "support": 50.0
+  },
+  "accuracy": 0.9400826446280992,
+  "macro avg": {
+    "precision": 0.9446726271983922,
+    "recall": 0.9372941176470588,
+    "f1-score": 0.9397066768197313,
+    "support": 484.0
+  },
+  "weighted avg": {
+    "precision": 0.942843623138835,
+    "recall": 0.9400826446280992,
+    "f1-score": 0.9403371480985679,
+    "support": 484.0
+  }
+}

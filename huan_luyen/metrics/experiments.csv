@@ -1,0 +1,8 @@
+name,seed,fraction,strong,mixup,stage1_f1,stage2_f1,stage1,stage2
+seed_41,41,1.0,True,0.0,0.9303307965070562,0.9268015114593359,seed_41_stage1.pth,seed_41_stage2.pth
+seed_42,42,1.0,True,0.0,0.9282999833271155,0.9161974218144744,seed_42_stage1.pth,seed_42_stage2.pth
+seed_43,43,1.0,True,0.0,0.9237900137786721,0.9284042030696137,seed_43_stage1.pth,seed_43_stage2.pth
+curve_25,42,0.25,True,0.0,0.848789858566958,0.878556051182068,curve_25_stage1.pth,curve_25_stage2.pth
+curve_50,42,0.5,True,0.0,0.896079984430331,0.9245777082286983,curve_50_stage1.pth,curve_50_stage2.pth
+ablation_light,42,1.0,False,0.0,0.9282999833271155,0.9347905757431512,seed_42_stage1.pth,ablation_light_stage2.pth
+ablation_mixup,42,1.0,True,0.2,0.9282999833271155,0.9193176415602007,seed_42_stage1.pth,ablation_mixup_stage2.pth

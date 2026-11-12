@@ -1,0 +1,13 @@
+{
+  "fp32_max_abs_diff": 1.0371208190917969e-05,
+  "fp32_logits_passed": true,
+  "fp32_mb": 16.849393,
+  "fp16_mb": 8.45644,
+  "fp16": {
+    "status": "tested",
+    "accuracy_fp32": 0.9380165289256198,
+    "accuracy_fp16": 0.9380165289256198,
+    "max_abs_diff": 0.03066110610961914,
+    "top1_agreement": 1.0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "classes": [
+    "Dog",
+    "Cat",
+    "Horse",
+    "Sheep",
+    "Goat",
+    "Deer",
+    "Tiger",
+    "Penguin",
+    "Chicken",
+    "background"
+  ],
+  "class_to_idx": {
+    "Dog": 0,
+    "Cat": 1,
+    "Horse": 2,
+    "Sheep": 3,
+    "Goat": 4,
+    "Deer": 5,
+    "Tiger": 6,
+    "Penguin": 7,
+    "Chicken": 8,
+    "background": 9
+  },
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "batch": 32,
+  "epochs_stage1": 10,
+  "epochs_stage2": 25,
+  "patience": 5,
+  "selected_seed": 43,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "input_size": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "resize": "PIL bilinear antialias Resize((224,224))",
+  "exif": "transpose before RGB",
+  "channel_order": "RGB",
+  "layout": "NCHW",
+  "label_smoothing": 0.1,
+  "pretrained": "IMAGENET1K_V2",
+  "dataset_root": "/kaggle/input/notebooks/ngaqyh/01-data/animal_data",
+  "stage2_features": "last three inverted residual blocks and final projection",
+  "stage2_batchnorm": "running statistics frozen"
+}

@@ -1,0 +1,7 @@
+Sheep/val: 19/50
+Goat/val: 30/50
+Goat/test_cartoon: 10/15
+Tiger/val: 14/50
+Tiger/test: 34/50
+Penguin/val: 31/50
+Chicken/val: 46/50
